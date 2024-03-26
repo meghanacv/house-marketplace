@@ -116,7 +116,7 @@ function Profile() {
               setChangeDetails((prevstate) => !prevstate);
             }}
           >
-            {changeDetails ? "done" : "change"}
+            {changeDetails ? "Done" : "Edit"}
           </p>
         </div>
 
